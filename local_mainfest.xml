@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
- <!-- Trees -->
- <project path="device/RMX3171" name="DPSLEGEND/android_device_RMX3171.git" remote="github" revision="lineage-18.1" />
- <project path="device/RMX3171/msm8953-common" name="DPSLEGEND/android_device_RMX3171_mt6768-common.git" remote="github" revision="lineage-18.1" />
- <project path="vendor/RMX3171" name="DPSLEGEND/android_vendor_RMX3171.git" remote="github" revision="master" />
- <project path="kernel/RMX3171" name="10orDevs/android_kernel_10or_G-4.9.git" remote="github" revision="lineage-18.1" />
+  <!-- Clang -->
+  <project path="prebuilts/clang/host/linux-x86/clang-5696680" name="kardebayan/android_prebuilts_clang_host_linux-x86_clang-5696680" remote="github" revision="9.0" />
+
+  <!-- Parts -->
+  <project path="packages/apps/RealmeParts" name="kardebayan/android_packages_apps_RealmeParts" remote="github" revision="eleven" />
  
+
+  <!-- Trees -->
+  <project path="device/oppo/CPH1859" name="kardebayan/android_device_oppo_CPH1859" remote="github" revision="eleven" />
+  <project path="vendor/oppo/CPH1859" name="kardebayan/vendor_oppo_CPH1859" remote="github" revision="eleven" />
+  <project path="kernel/oppo/CPH1859" name="stormbreaker-project/kernel_oppo_CPH1859" remote="github" revision="alps-rebase" />
+  
 </manifest>
