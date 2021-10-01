@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-
-
 
   <!-- Parts -->
   <project path="packages/apps/RealmeParts" name="Realme-MT6768-Developments/android_packages_apps_RealmeParts" remote="github" revision="eleven" />
