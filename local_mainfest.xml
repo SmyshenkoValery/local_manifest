@@ -7,7 +7,7 @@
  
 
   <!-- Trees -->
-  <project path="device/oppo/CPH1859" name="DPSLEGEND/device_realme_RMX3171" remote="github" revision="Havoc" />
-  <project path="vendor/oppo/CPH1859" name="DPSLEGEND/vendor_realme_RMX3171" remote="github" revision="eleven" />
+  <project path="device/realme/RMX3171" name="DPSLEGEND/device_realme_RMX3171" remote="github" revision="Havoc" />
+  <project path="vendor/realme/RMX3171" name="DPSLEGEND/vendor_realme_RMX3171" remote="github" revision="eleven" />
   
 </manifest>
