@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- Clang -->
-  <project path="prebuilts/clang/host/linux-x86/clang-5696680" name="kardebayan/android_prebuilts_clang_host_linux-x86_clang-5696680" remote="github" revision="9.0" />
+  <!-
+
 
   <!-- Parts -->
-  <project path="packages/apps/RealmeParts" name="kardebayan/android_packages_apps_RealmeParts" remote="github" revision="eleven" />
+  <project path="packages/apps/RealmeParts" name="Realme-MT6768-Developments/android_packages_apps_RealmeParts" remote="github" revision="eleven" />
  
 
   <!-- Trees -->
