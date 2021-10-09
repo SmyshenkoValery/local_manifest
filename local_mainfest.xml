@@ -2,10 +2,6 @@
 <manifest>
 
 
-  <!-- Parts -->
-  <project path="packages/apps/RealmeParts" name="Realme-MT6768-Developments/android_packages_apps_RealmeParts" remote="github" revision="eleven" />
- 
-
   <!-- Trees -->
   <project path="device/realme/RMX3171" name="DPSLEGEND/device_realme_RMX3171" remote="github" revision="Dot" />
   <project path="vendor/realme/RMX3171" name="DPSLEGEND/vendor_realme_RMX3171" remote="github" revision="11">
