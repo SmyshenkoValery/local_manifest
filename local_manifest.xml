@@ -2,7 +2,7 @@
 <manifest>
 
  <!-- Trees -->
- <project path="device/realme/RMX3171" name="DPSLEGEND/device_realme_RMX3171.git" remote="github" revision="Dot" />
+ <project path="device/realme/RMX3171" name="DPSLEGEND/device_realme_RMX3171.git" remote="github" revision="Fluid_a12" />
  <project path="vendor/realme/RMX3171" name="DPSLEGEND/vendor_realme_RMX3171.git" remote="github" revision="11" />
  
 </manifest>
