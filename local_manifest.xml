@@ -2,7 +2,7 @@
 <manifest>
 
  <remote name="dps" fetch="https://github.com/DPSLEGEND" />
-     <project path="device/realme/RMX3171" name="device_realme_RMX3171" remote="dps" revision="Fluid" />
+     <project path="device/realme/RMX3171" name="device_realme_RMX3171" remote="dps" revision="12" />
      <project path="vendor/realme/RMX3171" name="vendor_realme_RMX3171" remote="dps" revision="11" />
 
 </manifest>
