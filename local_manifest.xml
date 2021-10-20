@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
- <remove-project name="device/generic/opengl-transport" />
-
  <remote name="dps" fetch="https://github.com/DPSLEGEND" />
      <project path="device/realme/RMX3171" name="device_realme_RMX3171" remote="dps" revision="12" />
      <project path="vendor/realme/RMX3171" name="vendor_realme_RMX3171" remote="dps" revision="11" />
