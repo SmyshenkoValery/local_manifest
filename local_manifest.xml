@@ -2,7 +2,7 @@
 <manifest>
 
  <remote name="github" fetch="https://github.com/DPSLEGEND" />
-     <project path="device/realme/moon" name="device_realme_moon" remote="github" revision="aosp12-rmui2" />
+     <project path="device/realme/moon" name="device_realme_moon" remote="github" revision="octavi-12" />
      <project path="vendor/realme/moon" name="vendor_realme_moon" remote="github" revision="aosp12-rmui2" />
 
 </manifest>
