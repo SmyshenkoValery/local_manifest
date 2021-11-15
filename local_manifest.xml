@@ -1,5 +1,5 @@
 
-frameworks_opt_net_ims<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
  <remote name="DPSLEGEND" fetch="https://github.com/DPSLEGEND" />
