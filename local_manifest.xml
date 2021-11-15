@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
- <remote name="dps" fetch="https://github.com/DPSLEGEND" />
-     <project path="device/realme/moon" name="device_realme_moon" remote="dps" revision="Octavi-12" />
-     <project path="vendor/realme/moon" name="vendor_realme_moon" remote="dps" revision="aosp12-rmui2" />
-
+ <remote name="DPSLEGEND" fetch="https://github.com/DPSLEGEND" />
+ <remote name="AOSP-12-RMX2020" fetch="https://github.com/AOSP-12-RMX2020" />
+ 
+     <project path="device/realme/moon" name="device_realme_moon" remote="DPSLEGEND" revision="Octavi-12" />
+     <project path="vendor/realme/moon" name="vendor_realme_moon" remote="DPSLEGEND" revision="aosp12-rmui2" />
+     <project path="device/mediatek/sepolicy/vndr" name=" device_mediatek_sepolicy_vndr" remote="AOSP-12-RMX2020" revision="twelve" />
+     <project path="external/selinux" name="external_selinux" remote="AOSP-12-RMX2020" revision="aosp-12" />
+ 
 </manifest>
