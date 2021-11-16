@@ -6,7 +6,7 @@
  
      <project path="device/realme/moon" name="device_realme_moon" remote="DPSLEGEND" revision="Octavi-12" />
      <project path="vendor/realme/moon" name="vendor_realme_moon" remote="DPSLEGEND" revision="aosp12-rmui2" />
-     <remove-project path="external/selinux" />
+     <remove-project name="platform_external_selinux" />
      <project path="external/selinux" name="external_selinux" remote="AOSP-12-RMX2020" revision="aosp-12" />
      
 </manifest>
