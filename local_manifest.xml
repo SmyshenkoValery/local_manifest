@@ -7,9 +7,9 @@
      <project path="device/realme/moon" name="device_realme_moon" remote="DPSLEGEND" revision="Octavi-12" />
      <project path="vendor/realme/moon" name="vendor_realme_moon" remote="DPSLEGEND" revision="aosp12-rmui2" />
      <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="AOSP-12-RMX2020" revision="twelve" />
-     <remove-project name="platform/external/selinux" />
+     <remove-project name="external/selinux" />
      <project path="external/selinux" name="external_selinux" remote="AOSP-12-RMX2020" revision="aosp-12" />
-     <remove-project name="platform/frameworks/opt/net/ims" />
+     <remove-project name="frameworks/opt/net/ims" />
      <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="AOSP-12-RMX2020" revision="aosp-12" />
 
 </manifest>
