@@ -19,7 +19,7 @@
 	<remove-project name="platform/system/vold" />
 	<project path="system/vold" name="android_system_vold" remote="patch" revision="twelve" clone-depth="1" />
 
-    <!-- IMS -->
+        <!-- IMS -->
 	<project path="vendor/mediatek-ims" name="vendor_mediatek-ims" remote="sarthak" revision="twelve" clone-depth="1" />
 
 </manifest>
