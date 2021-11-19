@@ -2,6 +2,7 @@
 <manifest>
 
  <remote name="dps" fetch="https://github.com/DPSLEGEND" />
+
      <project path="device/realme/moon" name="device_realme_moon" remote="dps" revision="Cipher-12" />
      <project path="vendor/realme/moon" name="vendor_realme_moon" remote="dps" revision="aosp12-rmui2" />
 
