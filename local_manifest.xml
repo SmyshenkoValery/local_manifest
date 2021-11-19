@@ -1,12 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
- <remote name="DPSLEGEND" fetch="https://github.com/DPSLEGEND" />
- <remote name="AOSP-12-RMX2020" fetch="https://github.com/AOSP-12-RMX2020" />
- 
+<remote name="DPSLEGEND" fetch="https://github.com/DPSLEGEND" />
+<remote name="patch" fetch="https://github.com/CipherOS" />	
+<remote  name="sarthak" fetch="https://github.com/sarthakroy2002" />
+
+      <!-- Device Sauce -->
      <project path="device/realme/moon" name="device_realme_moon" remote="DPSLEGEND" revision="Octavi-12" />
      <project path="vendor/realme/moon" name="vendor_realme_moon" remote="DPSLEGEND" revision="aosp12-rmui2" />
-     <remove-project name="platform_external_selinux" />
-     <project path="external/selinux" name="external_selinux" remote="AOSP-12-RMX2020" revision="aosp-12" />
-     
+
+     <!-- Patches -->
+	<remove-project name="platform/external/selinux" />
+	<project path="external/selinux" name="android_external_selinux" remote="patch" revision="twelve" clone-depth="1" />
+
+	<remove-project name="platform/frameworks/opt/net/ims" />
+	<project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="patch" revision="twelve" clone-depth="1" />
+
+	<remove-project name="platform/system/vold" />
+	<project path="system/vold" name="android_system_vold" remote="patch" revision="twelve" clone-depth="1" />
+
+    <!-- IMS -->
+	<project path="vendor/mediatek-ims" name="vendor_mediatek-ims" remote="sarthak" revision="twelve" clone-depth="1" />
+
 </manifest>
