@@ -12,7 +12,7 @@
 
 	
       <!-- Device Sauce -->
-     <project path="device/realme/moon" name="device_realme_moon" remote="DPSLEGEND" revision="Octavi-12" />
+     <project path="device/realme/moon" name="device_realme_moon" remote="DPSLEGEND" revision="fluid-12" />
      <project path="vendor/realme/moon" name="vendor_realme_moon" remote="DPSLEGEND" revision="aosp12-rmui2" />
 
      <!-- Patches -->
