@@ -10,16 +10,16 @@
      <project path="vendor/realme/moon" name="vendor_realme_moon" remote="DPSLEGEND" revision="aosp12-rmui2" />
 
      <!-- Patches -->
-	<remove-project name="platform_external_selinux" />
+	<remove-project name="platform/external/selinux" />
 	<project path="external/selinux" name="android_external_selinux" remote="patch" revision="twelve" clone-depth="1" />
 
-	<remove-project name="platform_frameworks_opt_net_ims" />
+	<remove-project name="platform/frameworks/opt/net/ims" />
 	<project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="patch" revision="twelve" clone-depth="1" />
 
-	<remove-project name="platform_system_vold" />
-	<project path="system/vold" name="android_system_vold" remote="patch" revision="twelve" clone-depth="1" />
+	<remove-project name="platform/system/vold" />
+	<project path="system/vold" name="android_system_vold-LineageOS" remote="salik" revision="lineage-19.0" clone-depth="1" />
 
-        <!-- IMS -->
+	<!-- IMS -->
 	<project path="vendor/mediatek-ims" name="vendor_mediatek-ims" remote="sarthak" revision="twelve" clone-depth="1" />
 
 </manifest>
