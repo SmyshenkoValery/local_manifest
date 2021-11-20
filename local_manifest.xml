@@ -3,7 +3,9 @@
 
     <remote name="DPSLEGEND"
                 fetch="https://github.com/DPSLEGEND" />
-	<remote name="patch"
+	    <remote name="salik"
+                fetch="https://github.com/P-Salik" />
+       <remote name="patch"
 		fetch="https://github.com/CipherOS" />
 	<remote  name="sarthak"
 		fetch="https://github.com/sarthakroy2002" />
