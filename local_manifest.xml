@@ -10,10 +10,10 @@
 	<remote  name="sarthak"
 		fetch="https://github.com/sarthakroy2002" />
 
-	
       <!-- Device Sauce -->
      <project path="device/realme/moon" name="device_realme_moon" remote="DPSLEGEND" revision="Octavi-12" />
-     <project path="vendor/realme/moon" name="vendor_realme_moon" remote="DPSLEGEND" revision="aosp12-rmui2" />
+     <project path="vendor/realme/moon" name="vendor_realme_moon" remote="DPSLEGEND" revision="twelve" />
+     <project path="vendor/mediatek-ims" name="vendor_mediatek-ims" remote="dps" revision="twelve" />
 
      <!-- Patches -->
 	<remove-project name="platform_external_selinux" />
