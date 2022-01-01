@@ -10,6 +10,10 @@
 	<remote  name="sarthak"
 		fetch="https://github.com/sarthakroy2002" />
 
+        <remote name="ims"
+                fetch="https://github.com/AOSP-12-RMX2020" />
+
+
       <!-- Device Sauce -->
      <project path="device/realme/moon" name="device_realme_moon" remote="DPSLEGEND" revision="Octavi-12" />
      <project path="vendor/realme/moon" name="vendor_realme_moon" remote="DPSLEGEND" revision="twelve" />
@@ -17,12 +21,12 @@
 
      <!-- Patches -->
 	<remove-project name="platform_external_selinux" />
-	<project path="external/selinux" name="android_external_selinux" remote="patch" revision="twelve" clone-depth="1" />
+	<project path="external/selinux" name="android_external_selinux" remote="patch" revision="twelve" />
 
-	<remove-project name="platform/frameworks/opt/net/ims" />
-	<project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="patch" revision="twelve" clone-depth="1" />
+	<remove-project name="platform_frameworks_opt_net_ims" />
+	<project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="ims" revision="aosp-12" />
 
 	<remove-project name="platform_system_vold" />
-	<project path="system/vold" name="android_system_vold-LineageOS" remote="salik" revision="lineage-19.0" clone-depth="1" />
+	<project path="system/vold" name="android_system_vold" remote="patch" revision="twelve" />
 
 </manifest>
