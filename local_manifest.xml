@@ -2,7 +2,7 @@
 <manifest>
 
  <remote name="temp" fetch="https://github.com/SmyshenkoValery" />
-     <project path="device/realme/RMX3171" name="device_realme_RMX3171" remote="temp" revision="evox" />
-     <project path="vendor/realme/RMX3171" name="vendor_realme_RMX3171" remote="temp" revision="twelve" />
-     <project path="kernel/realme/RMX3171" name="kernel_realme_RMX3171" remote="temp" revision="12-rui2" />
+     <project path="device/realme/moon" name="device_realme_moon" remote="temp" revision="evox" />
+     <project path="vendor/realme/moon" name="vendor_realme_moon" remote="temp" revision="twelve" />
+     <project path="kernel/realme/moon" name="kernel_realme_moon" remote="temp" revision="12-rui2" />
 </manifest>
