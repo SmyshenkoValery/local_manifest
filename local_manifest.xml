@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<manifest>
 
- <remote name="temp" fetch="https://github.com/SmyshenkoValery" />
-     <project path="device/realme/moon" name="device_realme_moon" remote="temp" revision="evox" />
-     <project path="vendor/realme/moon" name="vendor_realme_moon" remote="temp" revision="twelve" />
-     <project path="kernel/realme/moon" name="kernel_realme_moon" remote="temp" revision="12-rui2" />
-</manifest>
+<манифест>
+
+	<remote name="SumonSN"
+
+		fetch="https://github.com/SumonSN" />
+
+        <project path="device/realme/RMX3171" name="device_realme_RMX3171" remote="SumonSN" версия="arrow-12" clone-depth="1" />
+
+        <project path="vendor/realme/RMX3171" name="vendor_realme_RMX3171" remote="SumonSN" ревизия="a12" clone-depth="1" />
+
+	
+
+</манифест>
